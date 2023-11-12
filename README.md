@@ -4,11 +4,14 @@ Mi proyecto es un servidor REST que ofrece una API RESTful para interactuar con 
 
 
 ## Instalacion
-1. Clonar el repositorio: ```$ git clone https://github.com/tu-usuario/tu-proyecto.git```
-2. Clonar el .env.template y crear el .env
-3. Ejecutar el comando ```docker compose up -d``` para levantar la base de datos local
-4. Cambiar el Url por el de la base de datos en la nube
-5. Usar el comando prisma migrate deploy para aprovicionar la bd de la nube
+1. Clonar el repositorio: 
+```bash
+    git clone https://github.com/tu-usuario/tu-proyecto.git
+```
+5. Clonar el .env.template y crear el .env
+6. Ejecutar el comando ```docker compose up -d``` para levantar la base de datos local
+7. Cambiar el Url por el de la base de datos en la nube
+8. Usar el comando prisma migrate deploy para aprovicionar la bd de la nube
 
 
 # API REST Endpoints
