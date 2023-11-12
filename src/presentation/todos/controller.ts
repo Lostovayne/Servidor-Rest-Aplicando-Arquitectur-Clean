@@ -4,7 +4,7 @@ import { CreateTodoDto, UpdateTodoDto } from "../../domain/dtos";
 import { TodoRepository } from "../../domain";
 
 export class TodosController {
-    //* DI
+    //* DDD Domain Driven Design
     constructor(private readonly todoRepository: TodoRepository) {}
 
     public getTodos = async (req: Request, res: Response) => {
