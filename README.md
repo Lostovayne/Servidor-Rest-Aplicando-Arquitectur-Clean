@@ -75,3 +75,11 @@ Mi proyecto es un servidor REST que ofrece una API RESTful para interactuar con 
   - Cuerpo de respuesta: Tarea eliminada en formato JSON.
 
 
+- `PORT=3000`
+- `PUBLIC_PATH=public`
+- `POSTGRES_URL=postgresql://postgres:123456@localhost:5432/TODO`
+- `POSTGRES_USER=postgres`
+- `POSTGRES_DB=TODO`
+- `POSTGRES_PORT=5432`
+- `POSTGRES_PASSWORD=123456`
+- `NODE_ENV=development`
