@@ -74,6 +74,7 @@ Mi proyecto es un servidor REST que ofrece una API RESTful para interactuar con 
   - Código de estado: 200
   - Cuerpo de respuesta: Tarea eliminada en formato JSON.
 
+## Env 
 
 - `PORT=3000`
 - `PUBLIC_PATH=public`
