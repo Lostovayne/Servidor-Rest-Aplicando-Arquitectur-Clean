@@ -17,8 +17,13 @@ Mi proyecto es un servidor REST que ofrece una API RESTful para interactuar con 
 ```bash
     docker compose up -d
 ```
-1. Cambiar el Url por el de la base de datos en la nube
-2. Usar el comando prisma migrate deploy para aprovicionar la bd de la nube
+5. Ejecutar Migracion de Prisma en Bd local para prepararla
+ ```bash
+    npx prisma migrate dev --name init
+```   
+
+7. Cambiar el Url por el de la base de datos en la nube
+8. Usar el comando prisma migrate deploy para aprovicionar la bd de la nube
 
 
 ```json
