@@ -21,6 +21,16 @@ Mi proyecto es un servidor REST que ofrece una API RESTful para interactuar con 
 2. Usar el comando prisma migrate deploy para aprovicionar la bd de la nube
 
 
+```json
+"scripts": {
+  "dev": "tsnd --respawn --clear src/app.ts",
+  "build": "rimraf ./dist && tsc && npm run prisma:migrate:prod",
+  "start": "node dist/app.js",
+  "prisma:migrate:prod": "prisma migrate deploy"
+}
+```
+
+
 # API REST Endpoints
 
 ## Obtener todas las tareas
